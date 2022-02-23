@@ -1,40 +1,5 @@
-a {
-    color: black;
-}
-
-body {
-    background: white url("images/background.gif") no-repeat;
-
-}
-
-.some-page-wrapper {
-    margin: 15px;
-    background-color: #A2CBFA;
-    border: 1px solid #4390E1;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.column {
-    height: 100px; flex-basis: 50%;
-    margin: 20px;
-}
-
-.polls {
-    text-align: center;
-    vertical-align: center;
-}
-
-.column a {
-    color: white;
-    text-decoration: none;
-}
-
+/* Add some padding on document's body to prevent the content
+to go underneath the header and footer */
 body {
     padding-top: 60px;
     padding-bottom: 40px;
@@ -73,11 +38,9 @@ nav a {
     line-height: 200px; /* Create scrollbar to test positioning */
 }
 
-
 section {
     width: 80%;
     margin: auto;
-
 }
 
 .container-flex {

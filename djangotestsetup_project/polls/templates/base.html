@@ -1,0 +1,30 @@
+{% load static %}
+
+<html lang="pl">
+<head>
+    <title>Django Polls</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <header>
+        <div class="fixed-header">
+            <div class="container">
+                <nav>
+                    <a href="{% url 'polls:index' %}">Home</a>
+                    <a href="{% url 'polls:poll_index' %}">Polls</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+{% block content %}
+{% endblock %}
+
+<footer>
+    <div class="fixed-footer">
+        <div class="container">Copyright &copy; 2016 Your Company</div>
+    </div>
+</footer>
+
+</body>
+</html>
